@@ -17,7 +17,7 @@ void calcola_partizioni(int elemento, int gruppo, int insieme[]) {
 
 int main() {
     printf("Inserisci il numero di elementi: ");
-    scanf("%d", &n)
+    scanf("%d", &n);
     int insieme[n];
     insieme[0] = 0;
     calcola_partizioni(1, 1, insieme);
